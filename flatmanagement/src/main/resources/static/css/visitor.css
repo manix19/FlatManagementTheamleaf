@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+.tenant-info {
+	margin-top: 50px;
+}
+.tenant-info img {
+	max-width: 150px;
+	height: auto;
+	margin-bottom: 20px;
+	border-radius: 4%;
+}
+
+.tenant-info h2 {
+	margin-bottom: 10px;
+	color: #000000;
+	font-size: 24px;
+}
+
+.info-item {
+	margin-bottom: 15px;
+	color: #495057;
+}
+
+.info-item strong {
+	color: #000000;
+}
+
+.card {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+	background-color: #000000;
+	color: white;
+	border-radius: 10px 10px 0 0;
+	padding: 15px;
+}
+
+.card-body {
+	background-color: #fff;
+	padding: 15px;
+}
+
+.tenant-header {
+	display: flex;
+	align-items: center;
+}
+
+.tenant-header img {
+	margin-right: 20px;
+}
+
+.add-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #28a745;
+	color: white;
+	border: none;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.add-button:hover {
+	background-color: #218838;
+}
+
+.form-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	width: 100%;
+	max-width: 345px;
+	z-index: 1000;
+	line-height: 0.6;
+}
+
+.hidden {
+	display: none;
+}
+
+.btn-group {
+	margin-bottom: 20px;
+}
+
+  #myGrid {
+        width: 100%;
+        height: 400px; /* Adjust as needed */
+        margin: 0 auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background: #fff;
+        overflow: hidden;
+    }
+
+    /* Style for SlickGrid headers */
+    .slick-header {
+        background-color: #343a40; /* Dark background color */
+        color: #ffffff; /* White text color */
+        font-weight: bold; /* Bold text */
+        text-align: center; /* Center text */
+        padding: 10px; /* Padding for better spacing */
+        border-bottom: 2px solid #dee2e6; /* Border below header */
+    }
+
+    /* Style for SlickGrid header columns */
+    .slick-header-column {
+        padding: 0 10px; /* Horizontal padding inside header columns */
+        border-right: 1px solid #dee2e6; /* Border between columns */
+        text-align: center; /* Center text in header columns */
+    }
+
+    /* Remove right border from the last column */
+    .slick-header-column:last-child {
+        border-right: none;
+    }
+
+    /* Style for SlickGrid rows */
+    .slick-row:nth-child(even) {
+        background-color: #f8f9fa; /* Light gray background for even rows */
+    }
+
+    .slick-row:hover {
+        background-color: #e9ecef; /* Slightly darker background on hover */
+    }
+
+    /* Style for SlickGrid cells */
+    .slick-cell {
+        padding: 10px; /* Cell padding */
+        box-sizing: border-box;
+        text-align: center; /* Center text in cells */
+    }
+
+    /* Hide forms by default */
+    .form-container.hidden {
+        display: none;
+    }
+
+    /* Custom button style */
+    .add-button {
+        font-size: 24px;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
